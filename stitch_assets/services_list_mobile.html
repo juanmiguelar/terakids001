@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="es"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>TheraKids Services List Mobile</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,typography"></script>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons+Round" rel="stylesheet"/>
+<script>
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    colors: {
+                        primary: "#9456B3", // Extracted purple from the images
+                        "primary-dark": "#7a4496",
+                        "background-light": "#F8F9FA",
+                        "background-dark": "#18181b",
+                        "card-light": "#FFFFFF",
+                        "card-dark": "#27272a",
+                        "text-light": "#333333",
+                        "text-dark": "#E4E4E7",
+                        "subtext-light": "#666666",
+                        "subtext-dark": "#A1A1AA",
+                    },
+                    fontFamily: {
+                        display: ["Montserrat", "sans-serif"],
+                    },
+                    borderRadius: {
+                        DEFAULT: "1rem",
+                        'xl': '1.5rem',
+                        '2xl': '2rem',
+                    },
+                    boxShadow: {
+                        'soft': '0 4px 20px -2px rgba(0, 0, 0, 0.05)',
+                    }
+                },
+            },
+        };
+    </script>
+<style>
+        body {
+            font-family: 'Montserrat', sans-serif;
+            -webkit-font-smoothing: antialiased;
+        }
+    </style>
+<style>
+    body {
+      min-height: max(884px, 100dvh);
+    }
+  </style>
+  </head>
+<body class="bg-background-light dark:bg-background-dark min-h-screen text-text-light dark:text-text-dark flex justify-center selection:bg-primary selection:text-white">
+<div class="w-full max-w-md bg-background-light dark:bg-background-dark min-h-screen relative shadow-2xl overflow-hidden flex flex-col">
+<header class="pt-12 pb-6 px-6 bg-white dark:bg-card-dark sticky top-0 z-10 shadow-sm transition-colors duration-300">
+<div class="flex justify-between items-center mb-6">
+<div class="flex flex-col">
+<h1 class="text-2xl font-extrabold text-primary tracking-tight">TheraKids</h1>
+<span class="text-[0.65rem] uppercase tracking-widest text-subtext-light dark:text-subtext-dark font-semibold">Centro Terapéutico Infantil</span>
+</div>
+<button class="p-2 rounded-full hover:bg-gray-100 dark:hover:bg-gray-700 transition-colors">
+<span class="material-icons-round text-gray-600 dark:text-gray-300">menu</span>
+</button>
+</div>
+<div class="flex items-center gap-3">
+<div class="w-1 h-8 bg-primary rounded-full"></div>
+<h2 class="text-xl font-bold text-gray-800 dark:text-white">Nuestros Servicios</h2>
+</div>
+<p class="mt-2 text-sm text-subtext-light dark:text-subtext-dark leading-relaxed">
+                Apoyamos el desarrollo integral de tus hijos con especialistas dedicados.
+            </p>
+</header>
+<main class="flex-1 px-6 py-6 space-y-5 overflow-y-auto pb-24">
+<article class="group bg-card-light dark:bg-card-dark rounded-xl p-5 shadow-soft border border-transparent hover:border-primary/30 transition-all duration-300 relative overflow-hidden">
+<div class="absolute top-0 left-0 w-1.5 h-full bg-primary rounded-l-xl"></div>
+<div class="flex items-start gap-4">
+<div class="w-12 h-12 rounded-full bg-purple-50 dark:bg-primary/20 flex items-center justify-center shrink-0 text-primary">
+<span class="material-icons-round text-2xl">record_voice_over</span>
+</div>
+<div class="flex-1">
+<h3 class="text-primary font-bold uppercase tracking-wide text-sm mb-1 group-hover:underline decoration-2 underline-offset-4">Terapia de Lenguaje</h3>
+<p class="text-sm text-subtext-light dark:text-subtext-dark mb-3 line-clamp-2">
+                            Evaluación y tratamiento de dificultades en el habla, lenguaje y comunicación para potenciar la expresión.
+                        </p>
+<a class="inline-flex items-center text-xs font-bold text-primary hover:text-primary-dark transition-colors" href="#">
+                            Ver más <span class="material-icons-round text-sm ml-1">arrow_forward</span>
+</a>
+</div>
+</div>
+</article>
+<article class="group bg-card-light dark:bg-card-dark rounded-xl p-5 shadow-soft border border-transparent hover:border-primary/30 transition-all duration-300 relative overflow-hidden">
+<div class="absolute top-0 left-0 w-1.5 h-full bg-primary rounded-l-xl"></div>
+<div class="flex items-start gap-4">
+<div class="w-12 h-12 rounded-full bg-purple-50 dark:bg-primary/20 flex items-center justify-center shrink-0 text-primary">
+<span class="material-icons-round text-2xl">toys</span>
+</div>
+<div class="flex-1">
+<h3 class="text-primary font-bold uppercase tracking-wide text-sm mb-1 group-hover:underline decoration-2 underline-offset-4">Terapia Ocupacional</h3>
+<p class="text-sm text-subtext-light dark:text-subtext-dark mb-3 line-clamp-2">
+                            Fomentamos la independencia en actividades diarias a través del juego y el desarrollo sensorial.
+                        </p>
+<a class="inline-flex items-center text-xs font-bold text-primary hover:text-primary-dark transition-colors" href="#">
+                            Ver más <span class="material-icons-round text-sm ml-1">arrow_forward</span>
+</a>
+</div>
+</div>
+</article>
+<article class="group bg-card-light dark:bg-card-dark rounded-xl p-5 shadow-soft border border-transparent hover:border-primary/30 transition-all duration-300 relative overflow-hidden">
+<div class="absolute top-0 left-0 w-1.5 h-full bg-primary rounded-l-xl"></div>
+<div class="flex items-start gap-4">
+<div class="w-12 h-12 rounded-full bg-purple-50 dark:bg-primary/20 flex items-center justify-center shrink-0 text-primary">
+<span class="material-icons-round text-2xl">psychology</span>
+</div>
+<div class="flex-1">
+<h3 class="text-primary font-bold uppercase tracking-wide text-sm mb-1 group-hover:underline decoration-2 underline-offset-4">Psicología Infantil</h3>
+<p class="text-sm text-subtext-light dark:text-subtext-dark mb-3 line-clamp-2">
+                            Apoyo emocional y conductual para niños y adolescentes, brindando herramientas para el bienestar.
+                        </p>
+<a class="inline-flex items-center text-xs font-bold text-primary hover:text-primary-dark transition-colors" href="#">
+                            Ver más <span class="material-icons-round text-sm ml-1">arrow_forward</span>
+</a>
+</div>
+</div>
+</article>
+<article class="group bg-card-light dark:bg-card-dark rounded-xl p-5 shadow-soft border border-transparent hover:border-primary/30 transition-all duration-300 relative overflow-hidden">
+<div class="absolute top-0 left-0 w-1.5 h-full bg-primary rounded-l-xl"></div>
+<div class="flex items-start gap-4">
+<div class="w-12 h-12 rounded-full bg-purple-50 dark:bg-primary/20 flex items-center justify-center shrink-0 text-primary">
+<span class="material-icons-round text-2xl">baby_changing_station</span>
+</div>
+<div class="flex-1">
+<h3 class="text-primary font-bold uppercase tracking-wide text-sm mb-1 group-hover:underline decoration-2 underline-offset-4">Asesoría de Lactancia</h3>
+<p class="text-sm text-subtext-light dark:text-subtext-dark mb-3 line-clamp-2">
+                            Guía profesional para una lactancia exitosa y alimentación complementaria saludable.
+                        </p>
+<a class="inline-flex items-center text-xs font-bold text-primary hover:text-primary-dark transition-colors" href="#">
+                            Ver más <span class="material-icons-round text-sm ml-1">arrow_forward</span>
+</a>
+</div>
+</div>
+</article>
+<div class="mt-4 bg-gradient-to-r from-primary to-primary-dark rounded-xl p-6 text-white text-center relative overflow-hidden shadow-lg">
+<div class="absolute -top-10 -left-10 w-32 h-32 bg-white opacity-10 rounded-full"></div>
+<div class="absolute -bottom-10 -right-10 w-24 h-24 bg-white opacity-10 rounded-full"></div>
+<h4 class="text-lg font-bold mb-2 relative z-10">¿Dudas sobre qué servicio necesitas?</h4>
+<p class="text-sm opacity-90 mb-4 relative z-10">Agenda una consulta inicial de valoración con nuestro equipo.</p>
+<button class="bg-white text-primary px-6 py-2 rounded-full text-sm font-bold shadow-md hover:bg-gray-50 transition-colors relative z-10 w-full">
+                    Contáctanos
+                </button>
+</div>
+</main>
+<nav class="bg-white dark:bg-card-dark border-t border-gray-100 dark:border-gray-800 px-6 py-3 flex justify-between items-center text-xs font-medium text-subtext-light dark:text-subtext-dark absolute bottom-0 w-full z-20">
+<a class="flex flex-col items-center gap-1 hover:text-primary transition-colors" href="#">
+<span class="material-icons-round text-2xl">home</span>
+<span>Inicio</span>
+</a>
+<a class="flex flex-col items-center gap-1 text-primary" href="#">
+<span class="material-icons-round text-2xl">spa</span>
+<span>Servicios</span>
+</a>
+<a class="flex flex-col items-center gap-1 hover:text-primary transition-colors" href="#">
+<span class="material-icons-round text-2xl">calendar_month</span>
+<span>Citas</span>
+</a>
+<a class="flex flex-col items-center gap-1 hover:text-primary transition-colors" href="#">
+<span class="material-icons-round text-2xl">person</span>
+<span>Perfil</span>
+</a>
+</nav>
+</div>
+
+</body></html>

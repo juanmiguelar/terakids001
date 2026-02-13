@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="es"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>TheraKids Home Mobile</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,typography"></script>
+<link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;500;600;700&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons+Round" rel="stylesheet"/>
+<script>
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    colors: {
+                        primary: "#9C5FB5", // Purple from the screenshots
+                        secondary: "#FFD166", // Yellow accent
+                        "background-light": "#FAFAFA",
+                        "background-dark": "#18181b",
+                        "surface-light": "#FFFFFF",
+                        "surface-dark": "#27272a",
+                        "text-light": "#333333",
+                        "text-dark": "#EDEDED",
+                        "gray-light": "#E5E7EB",
+                        "gray-dark": "#3F3F46",
+                    },
+                    fontFamily: {
+                        display: ["Quicksand", "sans-serif"],
+                        body: ["Quicksand", "sans-serif"],
+                    },
+                    borderRadius: {
+                        DEFAULT: "1rem",
+                        'xl': '1.5rem',
+                        '2xl': '2rem',
+                        '3xl': '2.5rem',
+                    },
+                },
+            },
+        };
+    </script>
+<style>.hide-scrollbar::-webkit-scrollbar {
+            display: none;
+        }
+        .hide-scrollbar {
+            -ms-overflow-style: none;
+            scrollbar-width: none;
+        }
+    </style>
+<style>
+    body {
+      min-height: max(884px, 100dvh);
+    }
+  </style>
+  </head>
+<body class="bg-background-light dark:bg-background-dark font-body text-text-light dark:text-text-dark min-h-screen transition-colors duration-200">
+<div class="h-12 w-full bg-transparent flex items-end justify-between px-6 pb-2 text-sm font-semibold text-gray-800 dark:text-gray-200">
+<span>9:41</span>
+<div class="flex gap-1.5 items-center">
+<span class="material-icons-round text-base">signal_cellular_alt</span>
+<span class="material-icons-round text-base">wifi</span>
+<span class="material-icons-round text-lg">battery_full</span>
+</div>
+</div>
+<nav class="flex justify-between items-center px-6 py-4 sticky top-0 bg-background-light/90 dark:bg-background-dark/90 backdrop-blur-md z-50">
+<div class="flex items-center gap-2">
+<div class="w-8 h-8 rounded-full bg-primary flex items-center justify-center text-white">
+<span class="material-icons-round text-lg">spa</span>
+</div>
+<span class="font-display font-bold text-xl text-primary tracking-tight">TheraKids</span>
+</div>
+<button class="p-2 rounded-full hover:bg-gray-100 dark:hover:bg-gray-800 transition-colors">
+<span class="material-icons-round text-gray-600 dark:text-gray-300">notifications_none</span>
+</button>
+</nav>
+<main class="pb-24">
+<section class="relative px-6 pt-4 pb-10">
+<div class="absolute top-0 right-0 w-2/3 h-64 bg-primary/10 dark:bg-primary/20 rounded-bl-[4rem] -z-10"></div>
+<div class="flex flex-col gap-6">
+<div>
+<span class="text-sm font-semibold uppercase tracking-wider text-gray-500 dark:text-gray-400">Bienvenidos a</span>
+<h1 class="font-display font-bold text-3xl leading-tight text-primary mt-1">
+                        CENTRO<br/>TERAPÉUTICO<br/>INFANTIL
+                    </h1>
+</div>
+<div class="relative w-full aspect-[4/3] rounded-3xl overflow-hidden shadow-lg group">
+<img alt="Founders Ken and Majo smiling in a bright studio" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCq7okqNf0WKeGnexlXKEyl6jrvcodjphRcNEV9GO4j2jrG--xzDu0JoEKroNQ8Z281fVgtbFSbYcxl3cQo4EM-E3hTwMeAJMnsBzUhD4HvK7gP0ombV77riyR4YptzmnvIByRWC8v52FmnEDio-ShRIoyGN_tNUFr9oNJqyX2Apdd7SrIauWCvPrLFEzmgZpV5lw1lyKywGXWljVNrrOe6XMlcZrA8w-eXv0Rcj6qlxsaYyfiePeKOVYBSnJuYHbAQl7lvG1VkfpXi"/>
+<div class="absolute inset-0 bg-gradient-to-t from-black/40 to-transparent"></div>
+<div class="absolute bottom-4 left-4 text-white">
+<p class="font-bold text-lg">¡Conoce al equipo!</p>
+<p class="text-sm opacity-90">Expertos en desarrollo infantil</p>
+</div>
+</div>
+<button class="w-full bg-secondary text-gray-900 font-bold py-4 rounded-xl shadow-md hover:shadow-lg hover:translate-y-[-2px] transition-all flex items-center justify-center gap-2 active:scale-95">
+<span class="material-icons-round">calendar_today</span>
+                    Agendar Cita
+                </button>
+</div>
+</section>
+<section class="px-6 mb-10">
+<div class="bg-surface-light dark:bg-surface-dark p-6 rounded-2xl shadow-sm border border-gray-100 dark:border-gray-800">
+<div class="flex items-center gap-2 mb-3">
+<span class="material-icons-round text-primary">favorite</span>
+<h2 class="font-display font-bold text-lg text-gray-800 dark:text-gray-100">Nuestra Historia</h2>
+</div>
+<p class="text-gray-600 dark:text-gray-300 text-sm leading-relaxed">
+                    Somos Ken y Majo, fundadoras de TheraKids. Creemos en el potencial ilimitado de cada niño. Nuestro enfoque terapéutico es cálido, basado en el juego y centrado en la familia para potenciar el lenguaje y desarrollo.
+                </p>
+<button class="mt-4 text-primary font-bold text-sm flex items-center gap-1 hover:underline">
+                    Leer más <span class="material-icons-round text-base">arrow_forward</span>
+</button>
+</div>
+</section>
+<section class="mb-10">
+<div class="px-6 mb-4 flex justify-between items-end">
+<h2 class="font-display font-bold text-2xl text-gray-800 dark:text-white">Servicios</h2>
+<a class="text-primary text-sm font-semibold" href="#">Ver todos</a>
+</div>
+<div class="flex overflow-x-auto gap-4 px-6 pb-4 hide-scrollbar snap-x snap-mandatory">
+<div class="min-w-[160px] snap-start bg-surface-light dark:bg-surface-dark p-4 rounded-2xl shadow-sm border border-gray-100 dark:border-gray-800 flex flex-col items-center text-center gap-3 hover:border-primary/50 transition-colors">
+<div class="w-14 h-14 rounded-full bg-blue-100 dark:bg-blue-900/30 flex items-center justify-center text-blue-600 dark:text-blue-300">
+<span class="material-icons-round text-2xl">record_voice_over</span>
+</div>
+<div>
+<h3 class="font-bold text-sm text-gray-800 dark:text-gray-100">Terapia de Lenguaje</h3>
+<p class="text-xs text-gray-500 dark:text-gray-400 mt-1">Comunicación efectiva</p>
+</div>
+</div>
+<div class="min-w-[160px] snap-start bg-surface-light dark:bg-surface-dark p-4 rounded-2xl shadow-sm border border-gray-100 dark:border-gray-800 flex flex-col items-center text-center gap-3 hover:border-primary/50 transition-colors">
+<div class="w-14 h-14 rounded-full bg-green-100 dark:bg-green-900/30 flex items-center justify-center text-green-600 dark:text-green-300">
+<span class="material-icons-round text-2xl">extension</span>
+</div>
+<div>
+<h3 class="font-bold text-sm text-gray-800 dark:text-gray-100">Terapia Ocupacional</h3>
+<p class="text-xs text-gray-500 dark:text-gray-400 mt-1">Habilidades diarias</p>
+</div>
+</div>
+<div class="min-w-[160px] snap-start bg-surface-light dark:bg-surface-dark p-4 rounded-2xl shadow-sm border border-gray-100 dark:border-gray-800 flex flex-col items-center text-center gap-3 hover:border-primary/50 transition-colors">
+<div class="w-14 h-14 rounded-full bg-purple-100 dark:bg-purple-900/30 flex items-center justify-center text-primary dark:text-purple-300">
+<span class="material-icons-round text-2xl">psychology</span>
+</div>
+<div>
+<h3 class="font-bold text-sm text-gray-800 dark:text-gray-100">Psicología Infantil</h3>
+<p class="text-xs text-gray-500 dark:text-gray-400 mt-1">Apoyo emocional</p>
+</div>
+</div>
+<div class="min-w-[160px] snap-start bg-surface-light dark:bg-surface-dark p-4 rounded-2xl shadow-sm border border-gray-100 dark:border-gray-800 flex flex-col items-center text-center gap-3 hover:border-primary/50 transition-colors">
+<div class="w-14 h-14 rounded-full bg-orange-100 dark:bg-orange-900/30 flex items-center justify-center text-orange-600 dark:text-orange-300">
+<span class="material-icons-round text-2xl">restaurant_menu</span>
+</div>
+<div>
+<h3 class="font-bold text-sm text-gray-800 dark:text-gray-100">Alimentación</h3>
+<p class="text-xs text-gray-500 dark:text-gray-400 mt-1">Asesoría experta</p>
+</div>
+</div>
+</div>
+</section>
+<section class="px-6">
+<h2 class="font-display font-bold text-2xl text-gray-800 dark:text-white mb-4">Especialistas</h2>
+<div class="flex flex-col gap-4">
+<div class="flex items-center gap-4 bg-surface-light dark:bg-surface-dark p-3 rounded-2xl shadow-sm border border-gray-100 dark:border-gray-800">
+<img alt="Gene Mejías portrait" class="w-16 h-16 rounded-xl object-cover" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBQeQIFBujOkDmpen-1YraSk7kOwswilQKDWMcBn5ETLgWMTIlo3FJphdgtN8ivWQjR3UpSQtv61GmpomvrC0Pu-hqyq3UqMGcG2dZLacU995-EhREeH-Usq1lmN9RVcobd2icUi2nI_izDH8Uq3OWg14Me4C7vdmUwUSeXQwRvW0s8WJTyDkwONiJOeGfAeCw8L0X-Z7O6kkIQAk1pCvlgNPt9JkRPxPLJqiANyiNCrhS_eCVfEQ_6c2AJcWi4A5_pFSkqRnRLrcTh"/>
+<div class="flex-1">
+<h3 class="font-bold text-primary dark:text-purple-400">Gene Mejías</h3>
+<p class="text-sm text-gray-600 dark:text-gray-300">Terapeuta Ocupacional</p>
+</div>
+<button class="p-2 rounded-full bg-gray-50 dark:bg-gray-800 text-gray-400 dark:text-gray-500">
+<span class="material-icons-round">chevron_right</span>
+</button>
+</div>
+<div class="flex items-center gap-4 bg-surface-light dark:bg-surface-dark p-3 rounded-2xl shadow-sm border border-gray-100 dark:border-gray-800">
+<img alt="Paula Fernández portrait" class="w-16 h-16 rounded-xl object-cover" src="https://lh3.googleusercontent.com/aida-public/AB6AXuB9WGdf3-r898nllhYlNPOxstg7PxMmxvwG3ak7MtnBcwDX-fqOGbg-EXhZB916VFZya61WYq2mK63krdeHeMBatrb42pJwgcWUNIDdGtYADoD6vkcmczBvrhwidv3WP1FdV8wXdCSqD9MM5sU3-eWvb_6m1AX3bWzwxddnC8aLA4ME5ylIn8NCc9OKji7FK9L13YJsr8jlM4VIQEBYAphwW-TaAY-CFKBnPF6ubFG969QlaO5lUuK9m0WyH3FStpT7VM2jH0oVNy4j"/>
+<div class="flex-1">
+<h3 class="font-bold text-primary dark:text-purple-400">Paula Fernández</h3>
+<p class="text-sm text-gray-600 dark:text-gray-300">Psicóloga Clínica</p>
+</div>
+<button class="p-2 rounded-full bg-gray-50 dark:bg-gray-800 text-gray-400 dark:text-gray-500">
+<span class="material-icons-round">chevron_right</span>
+</button>
+</div>
+</div>
+</section>
+</main>
+<nav class="fixed bottom-0 left-0 w-full bg-surface-light dark:bg-surface-dark border-t border-gray-200 dark:border-gray-800 px-6 py-3 flex justify-between items-center z-50 pb-8">
+<button class="flex flex-col items-center gap-1 text-primary">
+<span class="material-icons-round">home</span>
+<span class="text-[10px] font-bold">Inicio</span>
+</button>
+<button class="flex flex-col items-center gap-1 text-gray-400 dark:text-gray-500 hover:text-gray-600 dark:hover:text-gray-300 transition-colors">
+<span class="material-icons-round">calendar_month</span>
+<span class="text-[10px] font-medium">Citas</span>
+</button>
+<div class="relative -top-6">
+<button class="bg-primary text-white w-14 h-14 rounded-full shadow-lg shadow-purple-500/30 flex items-center justify-center hover:scale-105 transition-transform">
+<span class="material-icons-round text-2xl">add</span>
+</button>
+</div>
+<button class="flex flex-col items-center gap-1 text-gray-400 dark:text-gray-500 hover:text-gray-600 dark:hover:text-gray-300 transition-colors">
+<span class="material-icons-round">chat_bubble_outline</span>
+<span class="text-[10px] font-medium">Chat</span>
+</button>
+<button class="flex flex-col items-center gap-1 text-gray-400 dark:text-gray-500 hover:text-gray-600 dark:hover:text-gray-300 transition-colors">
+<span class="material-icons-round">person_outline</span>
+<span class="text-[10px] font-medium">Perfil</span>
+</button>
+</nav>
+
+</body></html>

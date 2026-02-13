@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="es"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>TheraKids Blog</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,typography"></script>
+<script>
+      tailwind.config = {
+        darkMode: "class",
+        theme: {
+          extend: {
+            colors: {
+              primary: "#8E54A9", 
+              "primary-light": "#A87BC7",
+              "background-light": "#F2F2F2",
+              "background-dark": "#1F1F1F",
+              "card-light": "#FFFFFF",
+              "card-dark": "#2D2D2D",
+              "text-main-light": "#333333",
+              "text-main-dark": "#E0E0E0",
+              "text-muted-light": "#666666",
+              "text-muted-dark": "#AAAAAA",
+            },
+            fontFamily: {
+              display: ["'Poppins'", "sans-serif"],
+              body: ["'Open Sans'", "sans-serif"],
+            },
+            borderRadius: {
+              DEFAULT: "1rem",
+              'lg': "1.5rem",
+              'xl': "2rem",
+            },
+          },
+        },
+      };
+    </script>
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&amp;family=Poppins:wght@500;700;800&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons+Round" rel="stylesheet"/>
+<style>
+    body {
+      min-height: max(884px, 100dvh);
+    }
+  </style>
+  </head>
+<body class="bg-background-light dark:bg-background-dark font-body antialiased min-h-screen pb-20 transition-colors duration-300">
+<header class="sticky top-0 z-50 bg-background-light/95 dark:bg-background-dark/95 backdrop-blur-sm px-6 py-4 flex items-center justify-between border-b border-gray-200 dark:border-gray-800 transition-colors duration-300">
+<div class="flex items-center gap-2">
+<div class="text-primary font-display font-bold text-2xl tracking-tight">Thera<span class="text-primary-light">Kids</span></div>
+</div>
+<button class="p-2 rounded-full text-text-main-light dark:text-text-main-dark hover:bg-gray-100 dark:hover:bg-gray-800 transition">
+<span class="material-icons-round text-3xl">menu</span>
+</button>
+</header>
+<main class="px-5 pt-6 pb-24 max-w-md mx-auto">
+<div class="mb-8">
+<h1 class="text-3xl font-display font-extrabold text-primary mb-2">Blog Educativo</h1>
+<p class="text-text-muted-light dark:text-text-muted-dark text-sm mb-6">Recursos y consejos para el desarrollo de tus pequeños.</p>
+<div class="relative w-full h-64 rounded-xl overflow-hidden shadow-lg group cursor-pointer">
+<img alt="Niño jugando con bloques de colores" class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDfXYePMP0FkHqHUYEZj841Iej5WXyMOB3UsFGfGnYyARNX48HX8826R0Cbb0QzboUmeOL9qQsjHUHH5vJdaMRhce-EV-uQ7ZEInz_EPU-LU2Yphmqhv_9oOvSVutd3mJhpST7raU9D33IFfz7x5oMWLoxO2LNjjbi5fLCiC_USxBDBF-2dUmd8_3rNnHzmh-0_AI2r1w02NyMP8pAxzDDaKxgiefnbSpDWlSG0NSC3pF852nQ69KcA3qvsVu6_gbNJBt72Db4JVPi7"/>
+<div class="absolute inset-0 bg-gradient-to-t from-black/80 via-black/30 to-transparent p-5 flex flex-col justify-end">
+<span class="inline-block px-3 py-1 bg-primary text-white text-xs font-bold rounded-full w-fit mb-2">Destacado</span>
+<h2 class="text-white font-display font-bold text-xl leading-tight mb-1">Señales de alerta en el desarrollo del lenguaje</h2>
+<p class="text-gray-200 text-xs line-clamp-2">Descubre cuándo es momento de consultar a un especialista si tu hijo tarda en hablar.</p>
+</div>
+</div>
+</div>
+<div class="flex gap-3 overflow-x-auto pb-4 mb-4 scrollbar-hide">
+<button class="flex-shrink-0 px-5 py-2 rounded-full bg-primary text-white font-semibold text-sm shadow-md transition-transform active:scale-95">Todos</button>
+<button class="flex-shrink-0 px-5 py-2 rounded-full bg-card-light dark:bg-card-dark text-text-muted-light dark:text-text-muted-dark border border-gray-200 dark:border-gray-700 font-medium text-sm hover:border-primary dark:hover:border-primary transition active:scale-95">Lenguaje</button>
+<button class="flex-shrink-0 px-5 py-2 rounded-full bg-card-light dark:bg-card-dark text-text-muted-light dark:text-text-muted-dark border border-gray-200 dark:border-gray-700 font-medium text-sm hover:border-primary dark:hover:border-primary transition active:scale-95">Alimentación</button>
+<button class="flex-shrink-0 px-5 py-2 rounded-full bg-card-light dark:bg-card-dark text-text-muted-light dark:text-text-muted-dark border border-gray-200 dark:border-gray-700 font-medium text-sm hover:border-primary dark:hover:border-primary transition active:scale-95">Sensorial</button>
+</div>
+<div class="space-y-6">
+<article class="bg-card-light dark:bg-card-dark rounded-xl shadow-sm border border-gray-100 dark:border-gray-800 overflow-hidden flex flex-col transition-colors duration-300">
+<div class="h-40 w-full overflow-hidden relative">
+<img alt="Bebe comiendo frutas con las manos" class="w-full h-full object-cover" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDO1EA2_-n0EhCdyYPBoh8zwOnEMfB2_WI_opN-kfHxKseSFnOGa_9pwZzgL5GK-sq8VJu2SfgWLab64oMIsrt0nMh2ByE-NNOjEwISzDsOwQMT2kbntUwuZi2yFPNOydag9rkTbyaXsiTEg-FIDxq7kvn11brOcHNhbbReLzdcrAZOBUrDZzOQfYU4Do8xDEOqZx_NdSJ3K8RzbIRFH_uyfHcFIPfp7DI4Pfj6FFDkZMLvNKl_awoR2pzoGhqWApL2UG-f_9n2-OV2"/>
+<span class="absolute top-3 left-3 bg-white/90 dark:bg-black/80 backdrop-blur-sm px-2 py-1 rounded-md text-primary text-xs font-bold uppercase tracking-wider">Alimentación</span>
+</div>
+<div class="p-5">
+<h3 class="font-display font-bold text-lg text-primary mb-2">Introducción a la alimentación complementaria</h3>
+<p class="text-text-muted-light dark:text-text-muted-dark text-sm leading-relaxed mb-4 line-clamp-2">
+                        Guía paso a paso para iniciar a tu bebé en el mundo de los sólidos de manera segura y divertida.
+                    </p>
+<div class="flex items-center justify-between mt-auto">
+<span class="text-xs text-gray-400 dark:text-gray-500 font-medium">Hace 2 días • 5 min lectura</span>
+<button class="text-primary font-bold text-sm flex items-center gap-1 hover:text-primary-light transition-colors">
+                            Leer más
+                            <span class="material-icons-round text-base">arrow_forward</span>
+</button>
+</div>
+</div>
+</article>
+<article class="bg-card-light dark:bg-card-dark rounded-xl shadow-sm border border-gray-100 dark:border-gray-800 overflow-hidden flex flex-col transition-colors duration-300">
+<div class="h-40 w-full overflow-hidden relative">
+<img alt="Niña jugando con plastilina" class="w-full h-full object-cover" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBWyplzyn--2DtSX32vX35bvbXZApbvh0y8V6bJpGQVwbGWfbo6GtCg2tfFlutgtCn68TKbiWhyKU2Znfh-udPzTnc2R4V4GvagIwix5AlzIcFmfOp_Hw83bI9hhsM40v-zZ2Wphp_TNriWLYlCj4y6RtrsMJr5R7OC2nf-ESSm731_8EBUh-1l97ydvAaDxYpBo8UHBpD46UpQTGi52-W2lwa4upuC54SXGjtya4MX0NM-ZGGWIkotQOpo62trKcUfDXx8Laz1Ql6K"/>
+<span class="absolute top-3 left-3 bg-white/90 dark:bg-black/80 backdrop-blur-sm px-2 py-1 rounded-md text-primary text-xs font-bold uppercase tracking-wider">Terapia Ocupacional</span>
+</div>
+<div class="p-5">
+<h3 class="font-display font-bold text-lg text-primary mb-2">La importancia del juego sensorial</h3>
+<p class="text-text-muted-light dark:text-text-muted-dark text-sm leading-relaxed mb-4 line-clamp-2">
+                        Cómo las texturas y los colores ayudan al cerebro de tu hijo a procesar la información del entorno.
+                    </p>
+<div class="flex items-center justify-between mt-auto">
+<span class="text-xs text-gray-400 dark:text-gray-500 font-medium">Hace 5 días • 8 min lectura</span>
+<button class="text-primary font-bold text-sm flex items-center gap-1 hover:text-primary-light transition-colors">
+                            Leer más
+                            <span class="material-icons-round text-base">arrow_forward</span>
+</button>
+</div>
+</div>
+</article>
+<article class="bg-card-light dark:bg-card-dark rounded-xl shadow-sm border border-gray-100 dark:border-gray-800 overflow-hidden flex flex-col transition-colors duration-300">
+<div class="h-40 w-full overflow-hidden relative">
+<img alt="Madre leyendo cuento a su hijo" class="w-full h-full object-cover" src="https://lh3.googleusercontent.com/aida-public/AB6AXuARB39h2YZs2A1MLAIbjugOYJ9n2XzwKvNT0UsCbvQgWQC38bMYuBALvukX5xQNr9s0y-eFpjll7nUK5v1iYRI9Ytef2PAkHJ55QCuxsVAIWIJGTRkGzHGdk6VSoJoeTGs9DqJKiUE5pbkOz4mvOjDw7YhFHEen4eUTLvIIDfq5zZujXLZmuJ7-IGBvewx6YuJGHD-kTzjoXAWTrjiR1sav61KnKkrN-oaTPPRMbfJiFpLLgD2wmJfF87B2HljtOzcWfBDyQwEa5wru"/>
+<span class="absolute top-3 left-3 bg-white/90 dark:bg-black/80 backdrop-blur-sm px-2 py-1 rounded-md text-primary text-xs font-bold uppercase tracking-wider">Psicología</span>
+</div>
+<div class="p-5">
+<h3 class="font-display font-bold text-lg text-primary mb-2">Manejando las rabietas con empatía</h3>
+<p class="text-text-muted-light dark:text-text-muted-dark text-sm leading-relaxed mb-4 line-clamp-2">
+                        Estrategias de disciplina positiva para acompañar a los niños en sus momentos de desregulación emocional.
+                    </p>
+<div class="flex items-center justify-between mt-auto">
+<span class="text-xs text-gray-400 dark:text-gray-500 font-medium">Hace 1 semana • 6 min lectura</span>
+<button class="text-primary font-bold text-sm flex items-center gap-1 hover:text-primary-light transition-colors">
+                            Leer más
+                            <span class="material-icons-round text-base">arrow_forward</span>
+</button>
+</div>
+</div>
+</article>
+</div>
+</main>
+<nav class="fixed bottom-0 w-full bg-white dark:bg-card-dark border-t border-gray-200 dark:border-gray-800 shadow-[0_-5px_15px_rgba(0,0,0,0.05)] pb-safe transition-colors duration-300">
+<div class="flex justify-around items-center h-16 max-w-md mx-auto">
+<button class="flex flex-col items-center justify-center w-full h-full text-gray-400 hover:text-primary dark:text-gray-500 dark:hover:text-primary transition-colors">
+<span class="material-icons-round text-2xl mb-1">home</span>
+<span class="text-[10px] font-medium">Inicio</span>
+</button>
+<button class="flex flex-col items-center justify-center w-full h-full text-primary dark:text-primary transition-colors relative">
+<span class="material-icons-round text-2xl mb-1">article</span>
+<span class="text-[10px] font-bold">Blog</span>
+<span class="absolute top-2 right-1/3 w-1.5 h-1.5 bg-primary rounded-full"></span>
+</button>
+<button class="flex flex-col items-center justify-center w-full h-full text-gray-400 hover:text-primary dark:text-gray-500 dark:hover:text-primary transition-colors">
+<span class="material-icons-round text-2xl mb-1">calendar_today</span>
+<span class="text-[10px] font-medium">Citas</span>
+</button>
+<button class="flex flex-col items-center justify-center w-full h-full text-gray-400 hover:text-primary dark:text-gray-500 dark:hover:text-primary transition-colors">
+<span class="material-icons-round text-2xl mb-1">person</span>
+<span class="text-[10px] font-medium">Perfil</span>
+</button>
+</div>
+</nav>
+<style>
+        .pb-safe {
+            padding-bottom: env(safe-area-inset-bottom);
+        }.scrollbar-hide::-webkit-scrollbar {
+            display: none;
+        }.scrollbar-hide {
+            -ms-overflow-style: none;scrollbar-width: none;}
+    </style>
+
+</body></html>
