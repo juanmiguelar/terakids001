@@ -213,15 +213,7 @@ export default async function BlogPostPage({ params }: BlogPostPageProps) {
             Compartir este artículo
           </p>
           <div className="flex gap-3">
-            <a
-              href={`https://www.facebook.com/sharer/sharer.php?u=${encodeURIComponent(`${siteConfig.url}/blog/${post.slug}`)}`}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="w-10 h-10 rounded-full bg-blue-600 text-white flex items-center justify-center hover:bg-blue-700 transition-colors"
-              aria-label="Compartir en Facebook"
-            >
-              <span className="text-sm font-bold">f</span>
-            </a>
+
             <a
               href={`https://twitter.com/intent/tweet?text=${encodeURIComponent(post.title)}&url=${encodeURIComponent(`${siteConfig.url}/blog/${post.slug}`)}`}
               target="_blank"

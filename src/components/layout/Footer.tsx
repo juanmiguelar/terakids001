@@ -35,15 +35,7 @@ export function Footer() {
               psicología infantil y más en Costa Rica.
             </p>
             <div className="flex gap-3 mt-4">
-              <a
-                href={siteConfig.socialMedia.facebook}
-                target="_blank"
-                rel="noopener noreferrer"
-                aria-label="Facebook de TheraKids"
-                className="w-10 h-10 rounded-full bg-gray-800 flex items-center justify-center hover:bg-primary transition-colors"
-              >
-                <span className="text-sm font-bold">f</span>
-              </a>
+
               <a
                 href={siteConfig.socialMedia.instagram}
                 target="_blank"

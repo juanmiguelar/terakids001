@@ -20,7 +20,6 @@ export function getOrganizationJsonLd() {
     telephone: siteConfig.phone,
     email: siteConfig.email,
     sameAs: [
-      siteConfig.socialMedia.facebook,
       siteConfig.socialMedia.instagram,
       siteConfig.socialMedia.tiktok,
     ],

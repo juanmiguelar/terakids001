@@ -77,7 +77,6 @@ export interface SiteConfig {
   email: string;
   whatsapp: string;
   socialMedia: {
-    facebook: string;
     instagram: string;
     tiktok: string;
   };

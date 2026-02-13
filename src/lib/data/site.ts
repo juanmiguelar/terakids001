@@ -7,10 +7,9 @@ export const siteConfig: SiteConfig = {
   url: process.env.NEXT_PUBLIC_SITE_URL || "https://therakids.com",
   logo: "/images/logo.webp",
   phone: "+506 2234-5678",
-  email: "info@therakids.com",
-  whatsapp: "+50622345678",
+  email: "therakidscr@gmail.com",
+  whatsapp: "+50685450733",
   socialMedia: {
-    facebook: "https://facebook.com/therakidscr",
     instagram: "https://instagram.com/therakidscr",
     tiktok: "https://tiktok.com/@therakidscr",
   },
