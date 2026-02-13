@@ -2,6 +2,11 @@ import Link from "next/link";
 import { siteConfig } from "@/lib/data";
 import { MaterialIcon } from "@/components/ui/MaterialIcon";
 
+/**
+ * Renders the site footer with navigation links, contact info, and copyright.
+ *
+ * @returns {JSX.Element} The site footer.
+ */
 export function Footer() {
   return (
     <footer className="bg-gray-900 text-gray-300 pt-12 pb-8">

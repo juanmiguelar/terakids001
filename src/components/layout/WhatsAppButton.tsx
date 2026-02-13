@@ -1,5 +1,10 @@
 import { siteConfig } from "@/lib/data";
 
+/**
+ * Renders a floating WhatsApp button that links to the configured WhatsApp number.
+ *
+ * @returns {JSX.Element} The floating WhatsApp button.
+ */
 export function WhatsAppButton() {
   return (
     <a

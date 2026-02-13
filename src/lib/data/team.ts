@@ -1,5 +1,9 @@
 import { TeamMember } from "./types";
 
+/**
+ * Array of team members at TheraKids.
+ * Includes their role, bio, image, and other personal details.
+ */
 export const team: TeamMember[] = [
   {
     id: "gene-mejias",

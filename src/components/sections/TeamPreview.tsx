@@ -3,6 +3,11 @@ import Link from "next/link";
 import { team } from "@/lib/data";
 import { MaterialIcon } from "@/components/ui/MaterialIcon";
 
+/**
+ * Renders a preview section of the team members.
+ *
+ * @returns {JSX.Element} The team preview section.
+ */
 export function TeamPreview() {
   const previewTeam = team.slice(0, 3);
 

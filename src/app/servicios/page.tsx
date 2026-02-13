@@ -5,6 +5,9 @@ import { MaterialIcon } from "@/components/ui/MaterialIcon";
 import { CTASection } from "@/components/sections/CTASection";
 import { getBreadcrumbJsonLd } from "@/lib/jsonLd";
 
+/**
+ * Metadata for the Services page.
+ */
 export const metadata: Metadata = {
   title: "Servicios",
   description:
@@ -20,6 +23,12 @@ export const metadata: Metadata = {
   },
 };
 
+/**
+ * The Services page.
+ * Lists all the services offered by the clinic with detailed descriptions.
+ *
+ * @returns {JSX.Element} The services page content.
+ */
 export default function ServiciosPage() {
   const breadcrumbJsonLd = getBreadcrumbJsonLd([
     { name: "Inicio", url: siteConfig.url },

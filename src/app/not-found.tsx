@@ -1,6 +1,11 @@
 import Link from "next/link";
 import { MaterialIcon } from "@/components/ui/MaterialIcon";
 
+/**
+ * Custom 404 Not Found page.
+ *
+ * @returns {JSX.Element} The not found page content.
+ */
 export default function NotFound() {
   return (
     <div className="min-h-[60vh] flex items-center justify-center px-6">

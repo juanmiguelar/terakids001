@@ -3,6 +3,9 @@ import { blogPosts, blogCategories, siteConfig } from "@/lib/data";
 import { getBreadcrumbJsonLd } from "@/lib/jsonLd";
 import { BlogListClient } from "./BlogListClient";
 
+/**
+ * Metadata for the Blog page.
+ */
 export const metadata: Metadata = {
   title: "Blog Educativo",
   description:
@@ -18,6 +21,12 @@ export const metadata: Metadata = {
   },
 };
 
+/**
+ * The Blog listing page.
+ * Displays a list of blog posts with filtering capabilities.
+ *
+ * @returns {JSX.Element} The blog page content.
+ */
 export default function BlogPage() {
   const breadcrumbJsonLd = getBreadcrumbJsonLd([
     { name: "Inicio", url: siteConfig.url },

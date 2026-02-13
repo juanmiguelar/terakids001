@@ -2,6 +2,13 @@ import { siteConfig } from "./data";
 import { sedes } from "./data/sedes";
 import type { BlogPost, TeamMember } from "./data/types";
 
+/**
+ * Generates the JSON-LD structured data for the Organization (TheraKids).
+ * This structure helps search engines understand the organization's details,
+ * including its name, URL, logo, contact information, and social media profiles.
+ *
+ * @returns {object} The JSON-LD object for the Organization.
+ */
 export function getOrganizationJsonLd() {
   return {
     "@context": "https://schema.org",
@@ -26,6 +33,12 @@ export function getOrganizationJsonLd() {
   };
 }
 
+/**
+ * Generates the JSON-LD structured data for the LocalBusiness (MedicalClinic).
+ * It creates an array of objects, one for each "sede" (location).
+ *
+ * @returns {object[]} An array of JSON-LD objects for each location.
+ */
 export function getLocalBusinessJsonLd() {
   return sedes.map((sede) => ({
     "@context": "https://schema.org",
@@ -55,6 +68,12 @@ export function getLocalBusinessJsonLd() {
   }));
 }
 
+/**
+ * Generates the JSON-LD structured data for a specific BlogPosting.
+ *
+ * @param {BlogPost} post - The blog post data.
+ * @returns {object} The JSON-LD object for the BlogPosting.
+ */
 export function getBlogPostJsonLd(post: BlogPost) {
   return {
     "@context": "https://schema.org",
@@ -83,6 +102,12 @@ export function getBlogPostJsonLd(post: BlogPost) {
   };
 }
 
+/**
+ * Generates the JSON-LD structured data for a BreadcrumbList.
+ *
+ * @param {Array<{ name: string; url: string }>} items - The list of breadcrumb items.
+ * @returns {object} The JSON-LD object for the BreadcrumbList.
+ */
 export function getBreadcrumbJsonLd(
   items: { name: string; url: string }[]
 ) {
@@ -98,6 +123,12 @@ export function getBreadcrumbJsonLd(
   };
 }
 
+/**
+ * Generates the JSON-LD structured data for a Person (Team Member).
+ *
+ * @param {TeamMember} member - The team member data.
+ * @returns {object} The JSON-LD object for the Person.
+ */
 export function getPersonJsonLd(member: TeamMember) {
   return {
     "@context": "https://schema.org",

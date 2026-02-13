@@ -1,12 +1,21 @@
 import Link from "next/link";
 
+/**
+ * Props for the CTASection component.
+ */
 interface CTASectionProps {
-  title: string;
-  description: string;
-  buttonText: string;
-  buttonHref: string;
+  title: string; // The main heading for the CTA
+  description: string; // The descriptive text
+  buttonText: string; // The text to display on the button
+  buttonHref: string; // The URL the button links to
 }
 
+/**
+ * Renders a Call to Action (CTA) section with a title, description, and button.
+ *
+ * @param {CTASectionProps} props - The component props.
+ * @returns {JSX.Element} The CTA section.
+ */
 export function CTASection({
   title,
   description,

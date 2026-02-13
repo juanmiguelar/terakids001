@@ -13,6 +13,11 @@ const navLinks = [
   { href: "/contacto", label: "Contacto" },
 ];
 
+/**
+ * Renders the main site header with navigation and mobile menu.
+ *
+ * @returns {JSX.Element} The site header.
+ */
 export function Header() {
   const [menuOpen, setMenuOpen] = useState(false);
   const pathname = usePathname();

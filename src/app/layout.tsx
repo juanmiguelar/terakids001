@@ -21,6 +21,10 @@ const openSans = Open_Sans({
   weight: ["400", "500", "600"],
 });
 
+/**
+ * Metadata configuration for the root layout.
+ * Includes title, description, keywords, and Open Graph settings.
+ */
 export const metadata: Metadata = {
   metadataBase: new URL(siteConfig.url),
   title: {
@@ -74,6 +78,14 @@ export const metadata: Metadata = {
   },
 };
 
+/**
+ * Root Layout component that wraps all pages.
+ * Handles fonts, global styles, and detailed JSON-LD structured data.
+ *
+ * @param {object} props - The component props.
+ * @param {React.ReactNode} props.children - The page content.
+ * @returns {JSX.Element} The root layout structure.
+ */
 export default function RootLayout({
   children,
 }: Readonly<{

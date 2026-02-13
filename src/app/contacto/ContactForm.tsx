@@ -22,6 +22,12 @@ const contactSchema = z.object({
 
 type ContactFormData = z.infer<typeof contactSchema>;
 
+/**
+ * Client-side contact form component.
+ * Uses React Hook Form and Zod for validation.
+ *
+ * @returns {JSX.Element} The contact form with validation and submission state.
+ */
 export function ContactForm() {
   const [submitted, setSubmitted] = useState(false);
 

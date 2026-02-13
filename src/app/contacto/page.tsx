@@ -5,6 +5,9 @@ import { MaterialIcon } from "@/components/ui/MaterialIcon";
 import { getBreadcrumbJsonLd } from "@/lib/jsonLd";
 import { ContactForm } from "./ContactForm";
 
+/**
+ * Metadata for the Contact page.
+ */
 export const metadata: Metadata = {
   title: "Contacto",
   description:
@@ -20,6 +23,12 @@ export const metadata: Metadata = {
   },
 };
 
+/**
+ * The Contact page.
+ * Displays contact information, a contact form, and location details.
+ *
+ * @returns {JSX.Element} The contact page content.
+ */
 export default function ContactoPage() {
   const breadcrumbJsonLd = getBreadcrumbJsonLd([
     { name: "Inicio", url: siteConfig.url },

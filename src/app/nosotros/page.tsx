@@ -6,6 +6,9 @@ import { MaterialIcon } from "@/components/ui/MaterialIcon";
 import { CTASection } from "@/components/sections/CTASection";
 import { getBreadcrumbJsonLd, getPersonJsonLd } from "@/lib/jsonLd";
 
+/**
+ * Metadata for the "About Us" page.
+ */
 export const metadata: Metadata = {
   title: "Quiénes Somos",
   description:
@@ -21,6 +24,12 @@ export const metadata: Metadata = {
   },
 };
 
+/**
+ * The "About Us" page.
+ * Presents the history of the clinic and profiles of the team members.
+ *
+ * @returns {JSX.Element} The about us page content.
+ */
 export default function NosotrosPage() {
   const breadcrumbJsonLd = getBreadcrumbJsonLd([
     { name: "Inicio", url: siteConfig.url },

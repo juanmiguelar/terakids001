@@ -9,6 +9,15 @@ Sitio web para TheraKids, centro terapéutico infantil especializado en terapia 
 - **Estilos**: Tailwind CSS v4
 - **Formularios**: React Hook Form + Zod
 - **Deploy**: Vercel
+- **Documentación**: JSDoc/TSDoc en componentes y utilidades
+
+## Documentación del Código
+
+El proyecto cuenta con documentación inline utilizando JSDoc/TSDoc.
+
+- **Componentes**: Descripción, props y retorno.
+- **Utilidades**: Descripción de funciones, parámetros y valores de retorno.
+- **Data**: Tipos e interfaces definidos en `src/lib/data/types.ts`.
 
 ## Inicio Rápido
 
@@ -72,6 +81,7 @@ stitch_assets/             # Mockups HTML de referencia (NO modificar)
 ## Mockups de Referencia
 
 Los diseños de Stitch están en `/stitch_assets/`:
+
 - `home_mobile.html` / `.png`
 - `about_us_mobile.html` / `.png`
 - `services_list_mobile.html` / `.png`

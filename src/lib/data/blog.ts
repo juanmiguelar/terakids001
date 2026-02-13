@@ -1,5 +1,8 @@
 import { BlogPost } from "./types";
 
+/**
+ * List of available blog categories.
+ */
 export const blogCategories = [
   "Todos",
   "Lenguaje",
@@ -10,6 +13,10 @@ export const blogCategories = [
   "Crianza",
 ];
 
+/**
+ * Array of blog posts details.
+ * Used to populate the blog section of the website.
+ */
 export const blogPosts: BlogPost[] = [
   {
     id: "1",

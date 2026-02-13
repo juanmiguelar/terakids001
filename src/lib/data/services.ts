@@ -1,5 +1,9 @@
 import { Service } from "./types";
 
+/**
+ * Array of services offered by TheraKids.
+ * Contains details like name, description, benefits, and styling icons.
+ */
 export const services: Service[] = [
   {
     id: "terapia-lenguaje",

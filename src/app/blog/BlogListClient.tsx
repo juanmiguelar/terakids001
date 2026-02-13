@@ -7,11 +7,21 @@ import type { BlogPost } from "@/lib/data";
 import { MaterialIcon } from "@/components/ui/MaterialIcon";
 
 interface BlogListClientProps {
+  /** The list of blog posts to display. */
   posts: BlogPost[];
+  /** The list of available categories for filtering. */
   categories: string[];
+  /** The specific post to highlight as featured. */
   featuredPost: BlogPost;
 }
 
+/**
+ * Client-side component for the Blog page.
+ * Handles interactivity such as category filtering.
+ *
+ * @param {BlogListClientProps} props - The component props.
+ * @returns {JSX.Element} The interactive blog list.
+ */
 export function BlogListClient({
   posts,
   categories,

@@ -2,6 +2,12 @@ import Link from "next/link";
 import { services } from "@/lib/data";
 import { MaterialIcon } from "@/components/ui/MaterialIcon";
 
+/**
+ * Renders a preview section of the offered services.
+ * Displays a horizontal scroll on mobile and a grid on desktop.
+ *
+ * @returns {JSX.Element} The services preview section.
+ */
 export function ServicesPreview() {
   const previewServices = services.slice(0, 4);
 

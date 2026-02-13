@@ -1,5 +1,9 @@
 import { Sede } from "./types";
 
+/**
+ * List of physical locations (Sedes) for TheraKids.
+ * Contains address, contact info, coordinates, and opening hours.
+ */
 export const sedes: Sede[] = [
   {
     id: "san-jose",

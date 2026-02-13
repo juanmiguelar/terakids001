@@ -3,6 +3,11 @@ import Link from "next/link";
 import { blogPosts } from "@/lib/data";
 import { MaterialIcon } from "@/components/ui/MaterialIcon";
 
+/**
+ * Renders a preview section of the latest blog posts.
+ *
+ * @returns {JSX.Element} The blog preview section.
+ */
 export function BlogPreview() {
   const recentPosts = blogPosts.slice(0, 3);
 

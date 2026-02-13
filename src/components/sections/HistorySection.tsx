@@ -1,6 +1,11 @@
 import Link from "next/link";
 import { MaterialIcon } from "@/components/ui/MaterialIcon";
 
+/**
+ * Renders a brief history/about section for the landing page.
+ *
+ * @returns {JSX.Element} The history section.
+ */
 export function HistorySection() {
   return (
     <section className="px-6 mb-10 max-w-6xl mx-auto">

@@ -5,6 +5,12 @@ import { TeamPreview } from "@/components/sections/TeamPreview";
 import { BlogPreview } from "@/components/sections/BlogPreview";
 import { CTASection } from "@/components/sections/CTASection";
 
+/**
+ * The main landing page of the website.
+ * Composes various sections to present the organization, services, and team.
+ *
+ * @returns {JSX.Element} The home page content.
+ */
 export default function HomePage() {
   return (
     <>

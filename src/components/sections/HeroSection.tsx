@@ -2,6 +2,12 @@ import Image from "next/image";
 import Link from "next/link";
 import { MaterialIcon } from "@/components/ui/MaterialIcon";
 
+/**
+ * Renders the Hero section of the landing page.
+ * Contains the main headline, description, and a call to action.
+ *
+ * @returns {JSX.Element} The Hero section.
+ */
 export function HeroSection() {
   return (
     <section className="relative px-6 pt-8 pb-10 max-w-6xl mx-auto">
