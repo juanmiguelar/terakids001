@@ -15,7 +15,7 @@ export function getOrganizationJsonLd() {
     "@type": "Organization",
     name: siteConfig.name,
     url: siteConfig.url,
-    logo: `${siteConfig.url}/images/logo.png`,
+    logo: siteConfig.logo.startsWith("http") ? siteConfig.logo : `${siteConfig.url}${siteConfig.logo}`,
     description: siteConfig.description,
     telephone: siteConfig.phone,
     email: siteConfig.email,
@@ -92,7 +92,7 @@ export function getBlogPostJsonLd(post: BlogPost) {
       name: siteConfig.name,
       logo: {
         "@type": "ImageObject",
-        url: `${siteConfig.url}/images/logo.png`,
+        url: siteConfig.logo.startsWith("http") ? siteConfig.logo : `${siteConfig.url}${siteConfig.logo}`,
       },
     },
     mainEntityOfPage: {

@@ -41,7 +41,7 @@ export function HeroSection() {
         <div className="lg:w-1/2 w-full">
           <div className="relative w-full aspect-[4/3] rounded-3xl overflow-hidden shadow-lg group">
             <Image
-              src="https://lh3.googleusercontent.com/aida-public/AB6AXuCq7okqNf0WKeGnexlXKEyl6jrvcodjphRcNEV9GO4j2jrG--xzDu0JoEKroNQ8Z281fVgtbFSbYcxl3cQo4EM-E3hTwMeAJMnsBzUhD4HvK7gP0ombV77riyR4YptzmnvIByRWC8v52FmnEDio-ShRIoyGN_tNUFr9oNJqyX2Apdd7SrIauWCvPrLFEzmgZpV5lw1lyKywGXWljVNrrOe6XMlcZrA8w-eXv0Rcj6qlxsaYyfiePeKOVYBSnJuYHbAQl7lvG1VkfpXi"
+              src="/images/hero.png"
               alt="Equipo fundador de TheraKids sonriendo en el estudio"
               fill
               className="object-cover transition-transform duration-700 group-hover:scale-105"

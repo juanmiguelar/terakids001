@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import Link from "next/link";
+
 import { sedes, siteConfig } from "@/lib/data";
 import { MaterialIcon } from "@/components/ui/MaterialIcon";
 import { getBreadcrumbJsonLd } from "@/lib/jsonLd";

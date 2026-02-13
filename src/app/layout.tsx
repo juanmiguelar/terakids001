@@ -73,6 +73,22 @@ export const metadata: Metadata = {
   alternates: {
     canonical: siteConfig.url,
   },
+  icons: {
+    icon: [
+      { url: "/images/favicon_io/favicon.ico" },
+      { url: "/images/favicon_io/favicon-16x16.png", sizes: "16x16", type: "image/png" },
+      { url: "/images/favicon_io/favicon-32x32.png", sizes: "32x32", type: "image/png" },
+    ],
+    apple: [
+      { url: "/images/favicon_io/apple-touch-icon.png" },
+    ],
+    other: [
+      {
+        rel: "manifest",
+        url: "/images/favicon_io/site.webmanifest",
+      },
+    ],
+  },
   other: {
     "google-site-verification": "",
   },

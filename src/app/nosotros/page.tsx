@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import Image from "next/image";
-import Link from "next/link";
+
 import { team, siteConfig } from "@/lib/data";
 import { MaterialIcon } from "@/components/ui/MaterialIcon";
 import { CTASection } from "@/components/sections/CTASection";
@@ -65,7 +65,7 @@ export default function NosotrosPage() {
           <div className="rounded-2xl overflow-hidden shadow-[0_4px_20px_-2px_rgba(0,0,0,0.05)] mb-6 relative group">
             <div className="absolute inset-0 bg-gradient-to-t from-primary/60 to-transparent opacity-60 z-10" />
             <Image
-              src="https://lh3.googleusercontent.com/aida-public/AB6AXuA9eD832XpNt_tl7oMi06JBtmpi4ktyG9h2oxMw3aV7fNiXsuLa2G2dVr9D01bQZ8fNRIyxBFcu4TH92wsjYGEBVSykm9y-q99qUCu3GMtkWS6U2M6cM1N5I5zAhC9XxDYhTXaUNrotLg00gU21YpQJyta9Hay7V_gfRc8XRWdMcfmY0JuN4Fc4b3cI_Nn5sO5UVnUftvtUbEQS0QMJxL58qTYlPxL6Fl8D-dozM6w1FJ8sGMoTdHzpcIIGlSbp5VkMVuE4sFs3Suex"
+              src="/images/hero2.png"
               alt="Fundadoras de TheraKids riendo juntas en el estudio"
               width={800}
               height={400}

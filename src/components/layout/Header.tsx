@@ -2,7 +2,9 @@
 
 import { useState } from "react";
 import Link from "next/link";
+import Image from "next/image";
 import { usePathname } from "next/navigation";
+import { siteConfig } from "@/lib/data";
 import { MaterialIcon } from "@/components/ui/MaterialIcon";
 
 const navLinks = [
@@ -26,8 +28,15 @@ export function Header() {
     <header className="sticky top-0 z-50 bg-surface-light/90 backdrop-blur-md shadow-sm border-b border-gray-100 transition-colors duration-300">
       <div className="px-6 py-4 flex justify-between items-center max-w-6xl mx-auto">
         <Link href="/" className="flex items-center gap-2">
-          <div className="w-8 h-8 rounded-full bg-primary flex items-center justify-center text-white">
-            <MaterialIcon name="spa" className="text-lg" />
+          <div className="relative w-10 h-10">
+            <Image
+              src={siteConfig.logo}
+              alt={`${siteConfig.name} Logo`}
+              fill
+              className="object-contain"
+              sizes="40px"
+              priority
+            />
           </div>
           <span className="font-display font-extrabold text-2xl tracking-tight">
             <span className="text-primary">Thera</span>
